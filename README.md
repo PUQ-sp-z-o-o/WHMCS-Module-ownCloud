@@ -1,7 +1,7 @@
 # WHMCS-Module-ownCloud
 # Description
 
-#####  [Order now](https://panel.puqcloud.com/whmcs-module-owncloud.php) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
+#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
 
 ### Preface
 
