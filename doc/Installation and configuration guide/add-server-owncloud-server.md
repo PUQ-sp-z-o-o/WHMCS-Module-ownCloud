@@ -1,0 +1,18 @@
+# Add server (ownCloud server)
+
+#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
+
+##### Add a new server to the system WHMCS.
+
+```
+System Settings->Servers->Add New Server
+```
+
+- Enter the correct **Name** and **Hostname**
+
+[![image-1677937131338.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677937131338.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677937131338.png)
+
+- In the **Server Details** section, select the "**PUQ ownCloud**" module and enter the correct **username** and **password** for the **ownCloud web interface**.
+- To check, click the **"Test connection"** button
+
+[![image-1677937142905.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677937142905.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677937142905.png)

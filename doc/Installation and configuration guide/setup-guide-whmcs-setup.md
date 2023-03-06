@@ -1,0 +1,55 @@
+# Setup guide: WHMCS setup
+
+#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
+
+##### 1. Download the latest version of the module.
+
+PHP 8.1
+
+```Powershell
+wget http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/PUQ_WHMCS-ownCloud-latest.zip
+```
+
+PHP 7.4
+
+```Powershell
+wget http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/php74/PUQ_WHMCS-ownCloud-latest.zip
+```
+
+<p class="callout info">All versions are available via link: [http://download.puqcloud.com/WHMCS/servers/PUQ\_WHMCS-ownCloud/](http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/)</p>
+
+##### 2. Unzip the archive with the module.
+
+```Powershell
+unzip PUQ_WHMCS-ownCloud-latest.zip
+```
+
+##### 3. Copy "puqownCloud" to "WHMCS\_WEB\_DIR/modules/servers/"
+
+##### 4. Create new server ownCloud in WHMCS (System Settings-&gt;Products/Services-&gt;Servers)
+
+```
+System Settings->Servers->Add New Server
+```
+
+- Enter the correct **Name** and **Hostname[![image-1677935186991.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677935186991.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677935186991.png)**
+- In the **Server Details** section, select the "**PUQ ownCloud**" module and enter the correct **username** and **password** for the **ownCloud web interface**.
+- To check, click the **"Test connection"** button[![image-1677935187015.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677935187015.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677935187015.png)
+
+##### 5. Create a new Products/Services
+
+```
+System Settings->Products/Services->Create a New Product
+```
+
+In the **Module settings** section, select the **"PUQ ownCloud"** module[![image-1677935187040.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677935187040.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677935187040.png)
+
+- **License key:** A pre-purchased license key for the **"PUQ ownCloud"** module. For the module to work correctly, the key must be active
+- **Unit:** Packet disk space units
+- **Disk space size:** Disk size in this product
+- **Notification disk limit email template:** Email template that will be sent when the disk quota is exceeded in %
+- **Notification, used disk space X %:** Sets a percentage parameter, after exceeding this parameter a notification will be sent to the user
+- **Username prefix/Username suffix:** Necessary in order to generate a username for the service, in the format: **prefix&lt;cliet\_id&gt;-&lt;service\_id&gt;suffix**
+- **Group:** The group that will be assigned to the user on the server side of the ownCloud
+- **Save usage history (days):** The number of days it takes to save user disk usage statistics
+- **Link to instruction:** Link to the instruction, if filled out, it will be reflected in the client area
