@@ -9,11 +9,9 @@ Thanks to the module, the company is able to offer public cloud services to its 
 
 The module is used to create customer accounts on the previously prepared ownCloud server. The module enables You to define multiple public cloud packages and sell them at different prices. The module creates a customer account according to the selected package. The client can have many independent accounts in the cloud.
 
-<p class="callout info">For the correct operation of the module, a pre-prepared ownCloud installation is required (the module does not assist in the installation of the ownCloud server and assumes that such installation is ready for operation through API.) Module use ownCloud A</p>
+>For the correct operation of the module, a pre-prepared ownCloud installation is required (the module does not assist in the installation of the ownCloud server and assumes that such installation is ready for operation through API.) Module use ownCloud API to manage clients account.</p>
 
-<p class="callout info">PI to manage clients account.</p>
-
-<p class="callout info">We have prepared a detailed installation manual for the module, including all the steps needed to implement the module, including the preparation of the ownCloud server, including all installation steps such as NGNIX, PHP, ownCloud, SSL certificates etc.</p>
+>We have prepared a detailed installation manual for the module, including all the steps needed to implement the module, including the preparation of the ownCloud server, including all installation steps such as NGNIX, PHP, ownCloud, SSL certificates etc.</p>
 
 ### Functions:
 
@@ -43,7 +41,7 @@ The module is used to create customer accounts on the previously prepared ownClo
 
 - - - - - -
 
-<p class="callout warning">WHMCS minimal version: 8 +</p>
+>WHMCS minimal version: 8 +</p>
 
 [![image-1677933560289.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677933560289.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677933560289.png)
 
