@@ -17,7 +17,7 @@ The module is used to create customer accounts on the previously prepared ownClo
 
 - Auto create and deploy client account
 - The module uses only the API to manage the accounts
-- Module supports multilingualism
+- Module supports multilingualism **(Arabic, Azerbaijani, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Farsi, French, German, Hebrew, Hungarian, Italian, Macedonian, Norwegian, Polish, Romanian, Russian, Spanish, Swedish, Turkish, Ukrainian)**
 - The module shows the current and history of data usage by the user
 - The module notifies the user about exceeding the data limit
 - Link to instructions for setting up the service in the client area.
@@ -41,7 +41,7 @@ The module is used to create customer accounts on the previously prepared ownClo
 
 - - - - - -
 
->WHMCS minimal version: 8 +</p>
+>WHMCS minimal version: 8 +
 
 [![image-1677933560289.png](https://doc.puq.info/uploads/images/gallery/2023-03/scaled-1680-/image-1677933560289.png)](https://doc.puq.info/uploads/images/gallery/2023-03/image-1677933560289.png)
 
