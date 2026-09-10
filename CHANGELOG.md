@@ -1,7 +1,17 @@
 # Changelog
 
 ### ownCloud module **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
+#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [Community](https://community.puqcloud.com/)
+
+---
+
+## v4.0.0 (02-09-2026)
+
+- Full compatibility with WHMCS 8.x and WHMCS 9+
+- Universal **ionCube Loader v15** support for seamless encoding compatibility
+- Modernized administrative product settings interface with dynamic injection and enhanced stability
+- Improved client area responsiveness and user session management
+- Performance optimizations and enhanced error recovery during automated provisioning tasks
 
 ---
 
@@ -32,7 +42,7 @@
 
 ## v2.0 (23-09-2024)
 
-- Module coded with ionCube v13
+- Module coded with ionCube v15
 - Supported PHP versions: 7.4, 8.1, 8.2
 - Compatible with WHMCS 8.11.0+
 

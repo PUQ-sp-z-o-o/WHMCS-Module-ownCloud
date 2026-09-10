@@ -1,7 +1,7 @@
 # Description
 
 ### ownCloud module **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [FAQ](https://faq.puqcloud.com/)
+#####  [Order now](https://puqcloud.com/whmcs-module-owncloud.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/) | [Community](https://community.puqcloud.com/)
 
 ## ownCloud WHMCS module
 
@@ -29,10 +29,10 @@ The ownCloud WHMCS module is a provisioning module that integrates WHMCS with ow
 
 | Requirement | Minimum |
 |-------------|---------|
-| WHMCS | 9.x or higher |
-| PHP | 8.2 or higher |
-| ownCloud | 10.x or higher |
-| ionCube Loader | v13 or newer (v14, v15) |
+| **WHMCS** | 8.x+, 9.x+ |
+| **PHP** | 7.4, 8.1, 8.2, 8.3, 8.4 |
+| **ownCloud** | 10.x or higher |
+| **ionCube Loader** | v15+ |
 
 ---
 
@@ -40,6 +40,7 @@ The ownCloud WHMCS module is a provisioning module that integrates WHMCS with ow
 
 - **Product page:** [https://puqcloud.com/whmcs-module-owncloud.php](https://puqcloud.com/whmcs-module-owncloud.php)
 - **Documentation:** [https://doc.puq.info/books/owncloud-whmcs-module](https://doc.puq.info/books/owncloud-whmcs-module)
+- **Download:** [https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-ownCloud/)
 - **Support:** [https://puqcloud.com/submitticket.php](https://puqcloud.com/submitticket.php?step=2&deptid=1)
 - **Community:** [https://community.puqcloud.com/](https://community.puqcloud.com/)
 
